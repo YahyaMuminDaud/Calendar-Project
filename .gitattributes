@@ -1,0 +1,2 @@
+simple-calendar-app/dist/simple-calendar-win32-x64/simple-calendar.exe filter=lfs diff=lfs merge=lfs -text
+*.exe filter=lfs diff=lfs merge=lfs -text
