@@ -16,8 +16,9 @@ function createWindow() {
       contextIsolation: false,
       enableRemoteModule: true
     },
-    icon: path.join(__dirname, 'assets/icon.png'), // Optional: add an icon
-    show: false // Don't show until ready-to-show
+    icon: path.join(__dirname, 'ycalendar.png'), // Optional: add an icon
+    show: false, // Don't show until ready-to-show
+    autoHideMenuBar: true
   });
 
   // Load the index.html file
