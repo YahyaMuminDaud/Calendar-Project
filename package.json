@@ -1,14 +1,14 @@
 {
-  "name": "simple-calendar-app",
+  "name": "yalendar",
   "version": "1.0.0",
-  "description": "A simple cross-platform desktop calendar app built with Electron",
+  "description": "Yeah thats right it's the Yalendar",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "build-win": "electron-packager . simple-calendar --platform=win32 --arch=x64 --out=dist/",
-    "build-mac": "electron-packager . simple-calendar --platform=darwin --arch=x64 --out=dist/"
+    "build-win": "electron-packager . Yalendar --platform=win32 --arch=x64 --icon=ycalendar.ico --out=dist/ --overwrite",
+    "build-mac": "electron-packager . Yalendar --platform=darwin --arch=x64 --icon=ycalendar.icns --out=dist/ --overwrite"
   },
-  "keywords": ["electron", "calendar", "desktop-app"],
+  "keywords": ["electron", "calendar", "desktop-app", "yalendar", "retro"],
   "author": "Your Name",
   "license": "MIT",
   "devDependencies": {
